@@ -1,0 +1,179 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #eceff1, #ffffff); /* Light gradient background */
+    color: #333;
+    line-height: 1.6;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh; /* Full height to center content */
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+}
+
+/* Profile Section */
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 30px;
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 5px solid #3498db;
+}
+
+.profile h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.profile p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.profile a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.profile a:hover {
+    text-decoration: underline;
+}
+
+/* Section Title */
+h2 {
+    font-size: 1.6rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Section Styling */
+.section {
+    margin-bottom: 30px;
+}
+
+/* List Styling */
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+/* Links Styling */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    background-color: #2c3e50;
+    color: #fff;
+    border-radius: 8px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Styling for Images in Projects Section */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Professional Background */
+.container {
+    background: #ffffff; /* solid white background for the resume */
+    border-radius: 8px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05); /* soft shadow for professionalism */
+}
+
+/* Section for Clear Dividers */
+hr {
+    border: 0;
+    border-top: 2px solid #3498db;
+    margin: 30px 0;
+}
+
+/* Professional Font Sizes and Weights */
+h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+h2 {
+    font-size: 1.7rem;
+    color: #2c3e50;
+    text-transform: uppercase;
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile img {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .section {
+        margin-bottom: 20px;
+    }
+
+    .profile p, .profile h1 {
+        font-size: 1.1rem;
+    }
+}
