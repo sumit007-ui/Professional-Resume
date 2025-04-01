@@ -1,4 +1,4 @@
-/* Global Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +26,6 @@ body {
     font-size: 1.1rem;
 }
 
-/* Profile Section */
 .profile {
     display: flex;
     align-items: center;
@@ -64,7 +63,7 @@ body {
     text-decoration: underline;
 }
 
-/* Section Title */
+
 h2 {
     font-size: 1.6rem;
     color: #2c3e50;
@@ -75,12 +74,10 @@ h2 {
     text-transform: uppercase;
 }
 
-/* Section Styling */
 .section {
     margin-bottom: 30px;
 }
 
-/* List Styling */
 ul {
     margin-left: 20px;
 }
@@ -90,7 +87,7 @@ li {
     font-size: 1.1rem;
 }
 
-/* Links Styling */
+
 a {
     color: #3498db;
     text-decoration: none;
@@ -100,7 +97,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Footer Styling */
 footer {
     text-align: center;
     padding: 15px;
@@ -114,28 +110,28 @@ footer p {
     font-size: 1rem;
 }
 
-/* Styling for Images in Projects Section */
+
 img {
     max-width: 100%;
     height: auto;
     margin-top: 10px;
 }
 
-/* Professional Background */
+
 .container {
     background: #ffffff; /* solid white background for the resume */
     border-radius: 8px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05); /* soft shadow for professionalism */
 }
 
-/* Section for Clear Dividers */
+
 hr {
     border: 0;
     border-top: 2px solid #3498db;
     margin: 30px 0;
 }
 
-/* Professional Font Sizes and Weights */
+
 h1 {
     font-size: 2.4rem;
     font-weight: bold;
@@ -148,7 +144,7 @@ h2 {
     text-transform: uppercase;
 }
 
-/* Responsive Design for Small Screens */
+
 @media (max-width: 768px) {
     .profile {
         flex-direction: column;
